@@ -14,6 +14,5 @@ public class HomeController {
                 .success(true)
                 .message("Hello World!")
                 .build();
-
     }
 }
