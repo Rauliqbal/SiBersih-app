@@ -26,8 +26,8 @@ public class RoleController {
    roleService.create(request);
 
     return WebResponse.<String>builder()
+      .success(true)
       .message("Role created successfully")
-      .data(null)
       .build();
   }
 }
