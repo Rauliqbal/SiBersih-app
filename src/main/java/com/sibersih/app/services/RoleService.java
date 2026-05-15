@@ -34,4 +34,10 @@ public class RoleService {
     // Save the role to the database
     roleRepository.save(role);
   }
+
+  @Transactional
+  public void getAll() {
+    Roles role = new Roles();
+
+  }
 }
